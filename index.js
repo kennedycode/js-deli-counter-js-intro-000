@@ -24,7 +24,5 @@ function currentLine(line) {
     katzDeliLine.push(`${i + 1}. ${line[i]}`)
   }
 
-  /* Keep in mind, join() is a a shorthand for looping and building
-   * into a String. */
-  return `The line is currently: ${katzDeliLine[]}`
+  return `The line is currently: ${katzDeliLine}`
 };
