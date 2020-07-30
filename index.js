@@ -1,4 +1,4 @@
-var katzDeliLine = [];
+const katzDeliLine = [];
 
 function takeANumber(line, name) {
   line.push(name)
@@ -18,7 +18,7 @@ function currentLine(line) {
     return "The line is currently empty."
   }
 
-  
+
 
   for (let i = 0, l = line.length; i < l; i++) {
     katzDeliLine.push(`${i + 1}. ${line[i]}`)
